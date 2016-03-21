@@ -1,0 +1,27 @@
+﻿@model List<WebAppMVCBasico.Models.Cliente>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Relaçao de Clientes</h2>
+<h3>@TempData["erro"]</h3>
+<table id="tbCliente" class="col-lg-12">
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ClienteId</td>
+            <td>@item.Nome</td>
+            <td>@item.Sobrenome</td>
+            <td>@item.DataCadastro</td>
+            <td>@item.NomeCompleto</td>
+            <td><button id="btnDel"><i class="glyphicon glyphicon-remove"></i></button></td>
+        </tr>
+    }
+</table>
+@section scripts{
+    <script>
+        $("#tbCliente").on('click', '#btnDel', function () {
+            $(this).closest('tr').remove();
+        });
+    </script>
+}

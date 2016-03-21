@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppMVCBasico", "WebAppMVCBasico\WebAppMVCBasico.csproj", "{2D5E8473-01DD-4377-AD11-847D078B1493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORMEntityFramework", "ORMEntityFramework\ORMEntityFramework.csproj", "{3A04F703-BDF1-444B-B00A-1C2D2A1B7CD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADOWebAppMVC", "ADOWebAppMVC\ADOWebAppMVC.csproj", "{0DD85C6D-3B44-437D-BF88-162EDC2140FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginWebFormsMVC", "LoginWebFormsMVC\LoginWebFormsMVC.csproj", "{04223AFF-504E-4AF0-931F-CD85A7182072}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoginWebFormsMVC_DB", "LoginWebFormsMVC_DB", "{5A1A67A6-8458-44DB-A678-041F3C788B1D}"
+	ProjectSection(SolutionItems) = preProject
+		CriarAcesso.sql = CriarAcesso.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TXTFileImportToSQL", "TXTFileImportToSQL\TXTFileImportToSQL.csproj", "{104597D6-6B80-439A-B2BD-EADE78E0D5AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompareDataTable", "CompareDataTable\CompareDataTable.csproj", "{2E25C740-FEE4-4F19-B08F-C0391A6FF4E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D5E8473-01DD-4377-AD11-847D078B1493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D5E8473-01DD-4377-AD11-847D078B1493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D5E8473-01DD-4377-AD11-847D078B1493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D5E8473-01DD-4377-AD11-847D078B1493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A04F703-BDF1-444B-B00A-1C2D2A1B7CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A04F703-BDF1-444B-B00A-1C2D2A1B7CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A04F703-BDF1-444B-B00A-1C2D2A1B7CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A04F703-BDF1-444B-B00A-1C2D2A1B7CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DD85C6D-3B44-437D-BF88-162EDC2140FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD85C6D-3B44-437D-BF88-162EDC2140FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD85C6D-3B44-437D-BF88-162EDC2140FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD85C6D-3B44-437D-BF88-162EDC2140FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04223AFF-504E-4AF0-931F-CD85A7182072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04223AFF-504E-4AF0-931F-CD85A7182072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04223AFF-504E-4AF0-931F-CD85A7182072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04223AFF-504E-4AF0-931F-CD85A7182072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{104597D6-6B80-439A-B2BD-EADE78E0D5AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{104597D6-6B80-439A-B2BD-EADE78E0D5AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{104597D6-6B80-439A-B2BD-EADE78E0D5AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{104597D6-6B80-439A-B2BD-EADE78E0D5AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E25C740-FEE4-4F19-B08F-C0391A6FF4E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E25C740-FEE4-4F19-B08F-C0391A6FF4E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E25C740-FEE4-4F19-B08F-C0391A6FF4E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E25C740-FEE4-4F19-B08F-C0391A6FF4E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
