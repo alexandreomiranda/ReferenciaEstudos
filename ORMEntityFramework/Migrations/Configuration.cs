@@ -1,7 +1,7 @@
 namespace ORMEntityFramework.Migrations
 {
-    using ORMEntityFramework.Context;
-    using ORMEntityFramework.Models;
+    using Context;
+    using Models;
     using System;
     using System.Collections.Generic;
     using System.Data.Entity;
@@ -18,9 +18,9 @@ namespace ORMEntityFramework.Migrations
         protected override void Seed(ORMEntityFramework.Context.EFContext context)
         {
             var diretores = new List<Diretor>{
-                new Diretor{DiretorId=1,Nome="Roger Waters"},
-                new Diretor{DiretorId=2,Nome="Clint Eastwood"},
-                new Diretor{DiretorId=3,Nome="Ridley Scott"}
+                new Diretor{DiretorId=1,Nome="Roger Waters",DataNascimento=new DateTime(1970,02,28)},
+                new Diretor{DiretorId=2,Nome="Clint Eastwood",DataNascimento=new DateTime(1970,03,28)},
+                new Diretor{DiretorId=3,Nome="Ridley Scott",DataNascimento=new DateTime(1970,02,28)}
             };
             diretores.ForEach(s => context.Diretores.AddOrUpdate(p => p.Nome, s));
             context.SaveChanges();

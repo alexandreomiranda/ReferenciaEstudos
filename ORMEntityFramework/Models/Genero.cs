@@ -14,6 +14,7 @@ namespace ORMEntityFramework.Models
         }
         public int GeneroId { get; set; }
         [Display(Name = "Genero")]
+        [Required(ErrorMessage = "O campo Genero é obrigatório.")]
         public string Nome { get; set; }
         public virtual ICollection<Filme> Filmes { get; set; }
 

@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -131,6 +132,7 @@
     <Compile Include="Models\Diretor.cs" />
     <Compile Include="Models\Filme.cs" />
     <Compile Include="Models\Genero.cs" />
+    <Compile Include="Models\Helper\MaiorDeIdadeAttribute.cs" />
     <Compile Include="Models\ModelConfig\DiretorConfig.cs" />
     <Compile Include="Models\ModelConfig\FilmeConfig.cs" />
     <Compile Include="Models\ModelConfig\GeneroConfig.cs" />

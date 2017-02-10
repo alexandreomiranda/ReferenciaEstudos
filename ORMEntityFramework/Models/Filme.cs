@@ -14,6 +14,7 @@ namespace ORMEntityFramework.Models
         }
         public int FilmeId { get; set; }
         [Display(Name = "Filme")]
+        [Required(ErrorMessage = "O campo Filme é obrigatório.")]
         public string Nome { get; set; }
         public int? Ano { get; set; }
         public int DiretorId { get; set; }

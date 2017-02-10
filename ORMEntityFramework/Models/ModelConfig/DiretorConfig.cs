@@ -15,6 +15,9 @@ namespace ORMEntityFramework.Models.ModelConfig
             Property(c => c.Nome)
                 .IsRequired();
 
+            //Property(c => c.DataNascimento)
+            //    .IsRequired();
+
         }
     }
 }
